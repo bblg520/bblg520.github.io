@@ -1,0 +1,52 @@
+/*
+CSS
+by Yishun Du, 2/24/2026
+*/
+
+body {
+    background: #fff7d1;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #ffb300;
+}
+
+.input-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#playerGuess {
+    width: 150px;
+    padding: 8px;
+    text-align: center;
+}
+
+#submitGuess {
+    padding: 8px 16px;
+    background: #ffca28;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 32px;
+    color: #ff8f00; 
+    margin-top: 20px;
+}
+
+
+#duckContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.duck-big {
+    width: 150px;
+}
