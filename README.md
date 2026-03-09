@@ -48,6 +48,10 @@ A simple program that generates a random dice roll from 1 to 6.
 ![Dice Screenshot 1](https://github.com/user-attachments/assets/eb85ba86-3322-49a8-b4ae-1d10cd21ae38)
 ![Dice Screenshot 2](https://github.com/user-attachments/assets/6e94885c-7be1-43c7-80e0-cd61bb15d6dc)
 
+### 📌 Features
+- Generates a random number between 1 and 6 every time the player clicks the button  
+- Displays a dice image that matches the generated number  
+
 ### 🛠️ Technologies Used
 - HTML  
 - CSS  
