@@ -58,3 +58,21 @@ A simple program that generates a random dice roll from 1 to 6.
 - JavaScript  
 
 ---
+
+## 🔍 Detect Image Subject
+A simple web tool that identifies the subject of an uploaded image and displays the prediction confidence using TensorFlow.js and MobileNet.
+
+### 🎮 Come Test Out
+👉 [https://bblg520.github.io/default.html]
+
+### 🖼️ Screenshot
+![Detect Image Screenshot1](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Detect%20Image%20Subject1.png)
+
+### 📌 Features
+- Upload an image to detect its subject
+- Displays prediction result with confidence percentage
+
+### 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
