@@ -76,3 +76,25 @@ A simple web tool that identifies the subject of an uploaded image and displays 
 - HTML
 - CSS
 - JavaScript
+
+---
+
+## 🔍 U.S. Community Safety Education
+A simple educational web project that helps students understand gun safety data through clear charts, summaries, and explanations.
+
+### 🎮 Come Test Out
+👉 https://bblg520.github.io/default.html
+
+### 🖼️ Screenshot
+![Gun Safety Screenshot](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Prog%20Final%20Project.png)
+
+### 📌 Features
+- Three topic sections: School Safety, Public Places, and Policy Impact
+- Interactive charts showing public support and policy impact
+- Clear summaries explaining what the data means
+- Simple navigation designed for students
+
+### 🛠️ Technologies Used
+- HTML  
+- CSS  
+- JavaScript  
