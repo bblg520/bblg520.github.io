@@ -83,19 +83,19 @@ A simple web tool that identifies the subject of an uploaded image and displays 
 A simple educational web project that helps students understand gun safety data through clear charts, summaries, and explanations.
 
 ### 🎮 Come Test Out
-👉 [https://bblg520.github.io/Final%20Project/Prog%20Final%20Project.html](https://bblg520.github.io/Final%20Project/Prog%20Final%20Project.html)
+👉 [https://bblg520.github.io/Final%20Project/default.htm](https://bblg520.github.io/Final%20Project/default.htm)
 
 ### 🖼️ Screenshot
 ![Gun Safety Screenshot](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Prog%20Final%20Project.png)
 
 ### 📌 Features
-- Three topic sections: School Safety, Public Places, and Policy Impact
-- Interactive charts showing public support and policy impact
-- Clear summaries explaining what the data means
-- Simple navigation designed for students
+- Three topic sections: School Safety, Public Places, and Policy Impact  
+- Interactive charts showing public support and policy impact  
+- Clear summaries explaining what the data means  
+- Simple navigation designed for students  
 
 ### 🛠️ Technologies Used
 - HTML  
-- CSS
+- CSS  
 - JavaScript  
 
