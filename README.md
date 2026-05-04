@@ -63,7 +63,7 @@ A simple program that generates a random dice roll from 1 to 6.
 A simple web tool that identifies the subject of an uploaded image and displays the prediction confidence using TensorFlow.js and MobileNet.
 
 ### 🎮 Come Test Out
-👉 [https://bblg520.github.io/default.html]
+👉 https://bblg520.github.io/DetectImageSubject.html
 
 ### 🖼️ Screenshot
 ![Detect Image Screenshot1](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Detect%20Image%20Subject1.png)
@@ -83,7 +83,7 @@ A simple web tool that identifies the subject of an uploaded image and displays 
 A simple educational web project that helps students understand gun safety data through clear charts, summaries, and explanations.
 
 ### 🎮 Come Test Out
-👉 [https://bblg520.github.io/default.html]
+👉 https://bblg520.github.io/Prog%20Final%20Project.html
 
 ### 🖼️ Screenshot
 ![Gun Safety Screenshot](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Prog%20Final%20Project.png)
@@ -97,4 +97,4 @@ A simple educational web project that helps students understand gun safety data 
 ### 🛠️ Technologies Used
 - HTML  
 - CSS  
-- JavaScript  
+
