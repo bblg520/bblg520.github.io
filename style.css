@@ -1,66 +1,49 @@
-/* 浅蓝背景 */
 body {
-  background: #d9ecff;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  color: #0f3c4c; /* ← 你选的颜色放这里 */
-  text-align: center;
-
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f9;
+ text-align: center;
+ margin: 0 auto; 
 }
 
-/* 内容居中 */
-.content {
-  max-width: 90%;
-  margin: auto;
+h1 {
+ color: #333;
 }
 
-/* 随机字体池（JS 会随机选择其中一种） */
-.random-font {
-  font-family: var(--font-choice, Arial);
+#result {
+ font-weight: bold;
+ color: #333;
+ font-family: Arial, sans-serif;
+ font-size: 60px;
+ text-align: center;
 }
 
-/* Dropzone */
-#dropzone {
-  width: 320px;
-  height: 240px;
-  border: 3px dashed #888;
+.dice {  
+  padding: 10px;  
+  background-color: #efefef;  
+  width: 200px;  
+  height: 200px;  
+  border-radius: 10%;
+  border-right: solid 4px #eaeaea;
+  border-bottom: solid 4px #eaeaea;
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #F2F5FA;
-  color: #999;
-  font-size: large;
-  font-weight: bold;
-  margin: 20px auto;
+}
+
+#roll-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
   cursor: pointer;
 }
 
-#dropzone.hover {
-  border-color: #2b8efc;
-  color: #2b8efc;
-}
-
-/* Progress bar */
-#progressContainer {
-  width: 320px;
-  height: 10px;
-  background: #42A231;
-  margin: 10px auto;
-  border-radius: 5px;
-  overflow: hidden;
-  display: none;
-}
-
-#progressBar {
-  height: 100%;
-  width: 0%;
-  background: #97FA48;
-  transition: width 0.3s;
-}
-
-#preview {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
+#roll-btn:hover {
+  background-color: #45a049;
 }
