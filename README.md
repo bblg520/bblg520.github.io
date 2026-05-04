@@ -42,7 +42,7 @@ If the guess matches the actual number, the player wins.
 A simple interactive dice‑style number generator that displays a random value each time the user clicks the button.
 
 ### 🎮 Try It Out  
-👉 [https://bblg520.github.io/DiceRoll/index.html](https://bblg520.github.io/DiceRoll/index.html)
+👉 [https://bblg520.github.io/DiceRoll/default.htm](https://bblg520.github.io/DiceRoll/default.htm)
 
 ### 🖼️ Screenshot
 ![Dice Screenshot 1](https://github.com/user-attachments/assets/eb85ba86-3322-49a8-b4ae-1d10cd21ae38)
