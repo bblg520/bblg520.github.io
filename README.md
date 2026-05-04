@@ -45,7 +45,8 @@ A simple interactive dice‑style number generator that displays a random value 
 👉 [https://bblg520.github.io/Random%20Number%20Generator/default.html](https://bblg520.github.io/Random%20Number%20Generator/default.html)
 
 ### 🖼️ Screenshot
-![Random Number Generator Screenshot](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Random%20Number%20Generator/your-screenshot-file.png)
+![Dice Screenshot 1](https://github.com/user-attachments/assets/eb85ba86-3322-49a8-b4ae-1d10cd21ae38)
+![Dice Screenshot 2](https://github.com/user-attachments/assets/6e94885c-7be1-43c7-80e0-cd61bb15d6dc)
 
 ### 📌 Features
 - Generates a random number on each click  
