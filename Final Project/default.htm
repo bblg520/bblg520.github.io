@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>U.S. Community Safety Education</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>U.S. Community Safety Education</h1>
+    <p class="subtitle">Understanding Gun Safety, Public Policy, and Community Protection</p>
+</header>
+
+<div class="container">
+
+    <!-- HOME PAGE -->
+    <section id="home" class="page card">
+        <h2>Why Gun Safety Matters</h2>
+        <p>Gun violence affects schools, public places, and communities across the U.S.</p>
+
+        <button class="primary-btn" onclick="go('choices')">Start</button>
+
+        <div class="info-box">
+            <h3>Project Explanation</h3>
+
+            <p>I made this project to help people quickly understand simple gun safety data because many students see news about shootings but don’t really know what the real numbers look like.</p>
+
+            <p>My project is mainly for high school and college students because they see this topic online a lot and need something easy to understand.</p>
+
+            <p>I use simple charts and short explanations so students can understand the information fast without feeling confused.</p>
+
+            <p>Gun violence affects schools and communities, but many people don’t realize that most Americans actually support basic safety rules.</p>
+
+            <p>Research from Johns Hopkins and Everytown shows that most Americans support safe storage, background checks, and that stronger gun laws usually mean fewer gun deaths.</p>
+
+            <p>My project shows that support for gun safety is higher than people think and that stronger laws can help make communities safer.</p>
+        </div>
+    </section>
+
+    <!-- CHOICES PAGE -->
+    <section id="choices" class="page card hidden">
+        <h2>Select a Topic</h2>
+
+        <button class="nav-btn" onclick="go('school')">School Safety</button>
+        <button class="nav-btn" onclick="go('public')">Public Places</button>
+        <button class="nav-btn" onclick="go('policy')">Policy Impact</button>
+
+        <button class="primary-btn back-home" onclick="go('home')">Back to Home</button>
+    </section>
+
+    <!-- SCHOOL SAFETY (Back to Home removed) -->
+    <section id="school" class="page card hidden">
+        <h2>School Safety</h2>
+        <p>School shootings have increased over the past decade.</p>
+
+        <canvas id="schoolChart"></canvas>
+
+        <div class="chart-description">
+            <p>
+                This chart shows how different groups feel about safe gun storage. Even though school shootings are rising, most people agree that locking up guns helps keep students safe.
+            </p>
+        </div>
+
+        <button class="primary-btn" onclick="go('summarySchool')">Continue</button>
+    </section>
+
+    <!-- PUBLIC PLACES (Back to Home removed) -->
+    <section id="public" class="page card hidden">
+        <h2>Public Places</h2>
+        <p>Public spaces like malls and theaters have seen many shootings.</p>
+
+        <canvas id="publicChart"></canvas>
+
+        <div class="chart-description">
+            <p>
+                This chart shows how much people support safety rules in public places. Most people want stronger rules so places like malls and parks feel safer.
+            </p>
+        </div>
+
+        <button class="primary-btn" onclick="go('summaryPublic')">Continue</button>
+    </section>
+
+    <!-- POLICY IMPACT (Back to Home removed) -->
+    <section id="policy" class="page card hidden">
+        <h2>Policy Impact</h2>
+        <p>States with stronger gun laws have lower gun death rates.</p>
+
+        <canvas id="policyChart"></canvas>
+
+        <div class="chart-description">
+            <p>
+                This chart compares states with strong and weak gun laws. Stronger laws usually mean fewer gun deaths.
+            </p>
+        </div>
+
+        <button class="primary-btn" onclick="go('summaryPolicy')">Continue</button>
+    </section>
+
+    <!-- SUMMARY SCHOOL -->
+    <section id="summarySchool" class="page card hidden">
+        <h2>School Safety Summary</h2>
+
+        <p>
+            Most Americans support safe gun storage, including both gun owners and non‑gun owners, 
+            which shows this policy is not as divided as people think. 
+            The high support from Democrats and even many Republicans shows safe storage is something most people agree on.
+        </p>
+
+        <div class="source-box">
+            <h3>Data Sources</h3>
+            <ul>
+                <li><a href="https://everytownresearch.org/rankings/" target="_blank">Everytown Rankings</a></li>
+                <li><a href="https://publichealth.jhu.edu/center-for-gun-violence-solutions/data/national-survey-of-gun-policy" target="_blank">Johns Hopkins Survey</a></li>
+            </ul>
+        </div>
+
+        <button class="primary-btn" onclick="go('choices')">Back to Topics</button>
+    </section>
+
+    <!-- SUMMARY PUBLIC -->
+    <section id="summaryPublic" class="page card hidden">
+        <h2>Public Places Summary</h2>
+
+        <p>
+            Most people support background checks, red flag laws, and safe storage, 
+            which means the public wants stronger safety rules in public places. 
+            These numbers show people across different groups agree that basic safety policies can help reduce shootings.
+        </p>
+
+        <div class="source-box">
+            <h3>Data Sources</h3>
+            <ul>
+                <li><a href="https://everytownresearch.org/rankings/" target="_blank">Everytown Rankings</a></li>
+                <li><a href="https://publichealth.jhu.edu/center-for-gun-violence-solutions/data/national-survey-of-gun-policy" target="_blank">Johns Hopkins Survey</a></li>
+            </ul>
+        </div>
+
+        <button class="primary-btn" onclick="go('choices')">Back to Topics</button>
+    </section>
+
+    <!-- SUMMARY POLICY -->
+    <section id="summaryPolicy" class="page card hidden">
+        <h2>Policy Impact Summary</h2>
+
+        <p>
+            States with stronger gun laws usually have lower gun death rates, 
+            and the difference between the top and bottom states is very large. 
+            This suggests stronger policies can make a real impact on community safety.
+        </p>
+
+        <div class="source-box">
+            <h3>Data Sources</h3>
+            <ul>
+                <li><a href="https://everytownresearch.org/rankings/" target="_blank">Everytown Rankings</a></li>
+                <li><a href="https://publichealth.jhu.edu/center-for-gun-violence-solutions/data/national-survey-of-gun-policy" target="_blank">Johns Hopkins Survey</a></li>
+            </ul>
+        </div>
+
+        <button class="primary-btn" onclick="go('choices')">Back to Topics</button>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
