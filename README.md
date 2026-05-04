@@ -83,7 +83,7 @@ A simple web tool that identifies the subject of an uploaded image and displays 
 A simple educational web project that helps students understand gun safety data through clear charts, summaries, and explanations.
 
 ### 🎮 Come Test Out
-👉 https://bblg520.github.io/default.html
+👉 [https://bblg520.github.io/default.html]
 
 ### 🖼️ Screenshot
 ![Gun Safety Screenshot](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Prog%20Final%20Project.png)
