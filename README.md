@@ -38,19 +38,19 @@ If the guess matches the actual number, the player wins.
 
 ---
 
-## 🎲 Random Dice Roll
-A simple program that generates a random dice roll from 1 to 6.
+## 🎲 Random Number Generator
+A simple interactive dice‑style number generator that displays a random value each time the user clicks the button.
 
-### 🎮 Play the Game  
-👉 [https://bblg520.github.io/default.htm](https://bblg520.github.io/default.htm)
+### 🎮 Try It Out  
+👉 [https://bblg520.github.io/Random%20Number%20Generator/default.html](https://bblg520.github.io/Random%20Number%20Generator/default.html)
 
-### 🖼️ Screenshots
-![Dice Screenshot 1](https://github.com/user-attachments/assets/eb85ba86-3322-49a8-b4ae-1d10cd21ae38)
-![Dice Screenshot 2](https://github.com/user-attachments/assets/6e94885c-7be1-43c7-80e0-cd61bb15d6dc)
+### 🖼️ Screenshot
+![Random Number Generator Screenshot](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Random%20Number%20Generator/your-screenshot-file.png)
 
 ### 📌 Features
-- Generates a random number between 1 and 6 every time the player clicks the button  
-- Displays a dice image that matches the generated number  
+- Generates a random number on each click  
+- Clean and simple UI  
+- Fast and responsive interaction  
 
 ### 🛠️ Technologies Used
 - HTML  
