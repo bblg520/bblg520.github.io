@@ -64,7 +64,7 @@ A simple interactive dice‑style number generator that displays a random value 
 A simple web tool that identifies the subject of an uploaded image and displays the prediction confidence using TensorFlow.js and MobileNet.
 
 ### 🎮 Come Test Out
-👉 [https://bblg520.github.io/DetectImageSubject.html](https://bblg520.github.io/DetectImageSubject.html)
+👉 [https://bblg520.github.io/DetectImageSubject/default.htm](https://bblg520.github.io/DetectImageSubject/default.htm)
 
 ### 🖼️ Screenshot
 ![Detect Image Screenshot1](https://raw.githubusercontent.com/bblg520/bblg520.github.io/main/Detect%20Image%20Subject1.png)
@@ -76,7 +76,7 @@ A simple web tool that identifies the subject of an uploaded image and displays 
 ### 🛠️ Technologies Used
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript 
 
 ---
 
